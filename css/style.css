@@ -1,0 +1,508 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    
+}
+
+
+
+
+.container{
+    width: 1320px;
+    margin: auto;
+}
+
+
+/* header part start */
+
+header{
+    margin-top: 50px;
+}
+
+.ban_overlay{
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(to bottom , black , transparent);
+    position: absolute;
+    border-radius: 15px;
+    display: block;
+}
+.ban_text{
+    margin-top: 180px;
+    text-align: center;
+    align-items: center;
+}
+.ban_text h2{
+    font-weight: 100;
+    font-size: 2rem;
+    font-family: "Merriweather", serif;
+    color: white;
+    
+}
+.ban_text h1{
+    font-weight: 700;
+    font-size: 4.5rem;
+    padding: 0 200px;
+    font-family: "Merriweather", serif;
+    color: white;
+    
+}
+
+.banner_img img{
+    width: 1320px;
+}
+
+/* header part end */
+
+/* main part start */
+
+.main_items{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.main_items h2{
+    color: #FF0000;
+    font-size: 5.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.main_items p{
+    color: #FF0000;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.main_items h3{
+    color: #070211;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+
+/* main part end */
+
+
+/*  welcome to the part start */
+.party_call{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.party_call img{
+    width: 100%;
+    height: 100%;
+}
+
+.img_side {
+    position: absolute;
+    top: 1727px;
+    left: 1217px;
+}
+.party_overlay{
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient(to right , black , transparent);
+    position: absolute;
+    border-radius: 15px;
+    display: block;
+}
+
+.party_text{
+    width: 70%;
+    margin-top: 180px;
+    text-align: left;
+    
+}
+.party_text h2{
+    padding: 0 150px;
+    font-weight: 900;
+    font-size: 4rem;
+    font-family: "Merriweather", serif;
+    color: white;
+    
+}
+.party_text p{
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 1.25rem;
+    padding: 0 0 0 150px;
+    font-family: "Merriweather", serif;
+    color: white;
+    
+}
+.party_text h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 0 0 0 180px;
+    font-family: "Merriweather", serif;
+    color: white;
+    
+}
+
+/*  welcome to the party end */
+
+/* place part start */
+.place_main{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #ffdddd, transparent);
+    padding: 100px 0;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.place_main h2{
+    color: #070211;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.place_main h3{
+    color: #070211;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.place_main p{
+    color: #070211;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.place_btn{
+    padding: 10px 40px;
+    color: white;
+    background-color: #FF0000;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.red_text{
+    color: #FF0000;
+}
+/* place part end */
+
+/* comming soon part */
+
+.coming_soon_main{
+    margin-top: 100px;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coming_soon {
+    width: 33%;
+    padding-right: 70px;
+}
+
+.coming_soon h3{
+    color: #FF0000;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.coming_soon h2{
+    color: #070211;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    margin-bottom: 20px;
+}
+.coming_soon p{
+    
+    color: #070211;
+}
+
+.group_picture{
+    width: 33%;
+}
+
+.group_picture img{
+    width: 100%;
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.new_year{
+    padding-left: 120px;
+    width: 33%;
+}
+
+.new_year h2{
+    color: #FF0000;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.new_year_text{
+    width: 270px;
+    color: #070211;
+    margin-bottom: 30px;
+}
+/* comming soon end */
+
+
+/* holiday start */
+.holiday_main_text{
+    text-align: center;
+    margin: 30px 0;
+}
+
+
+.holiday_main_text h4{
+    color: #070211;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.holiday_main_text h2{
+    color: #070211;
+    font-size: 4.5rem;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    margin-bottom: 10px;
+
+}
+.red_holiday{
+    color: #FF0000;
+}
+.holiday_main_text p{
+    font-size: 22px;
+    font-weight: 400;
+    padding: 0 150px;
+
+}
+
+
+/* holiday image part */
+
+
+.holiday_img_main{
+    margin: 100px 0;
+}
+
+
+.img_one_set{
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.sale_img {
+    position: absolute;
+    top: 65px;
+    left: 734px;
+}
+
+.img_two_set{
+    position: relative;
+}
+.flower_img img{
+    width: 600px;
+}
+.flower_img {
+    position: absolute;
+    top: -280px;
+    left: 70px;
+}
+/* holiday end */
+
+
+
+/* gift items start */
+
+.gift_text_main h3{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.gift_text_main h2{
+    color: #070211;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-family: "Merriweather", serif;
+}
+.gift_text_main p{
+    color: #070211;
+    font-size: 1rem;
+    font-weight: 300;
+    padding-right: 500px;
+    margin-bottom: 50px;
+}
+/* text gift */
+.cards_main{
+    margin: 100px 0;
+}
+.card{
+    width: 33%;
+    transition: all 0.5s;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+    cursor: zoom-in;
+    max-width: 33%;
+    
+}
+.first_group{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.last_group{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30PX;
+}
+/* gift items end */
+
+
+/* news letter start */
+.news_main{
+    background-color: #ffe6e6;
+    padding: 100px 0;
+    border-radius: 15px;
+    margin: 100px 0;
+    text-align: center;
+}
+.news_main h2{
+    margin-top: 20px;
+    font-family: "Merriweather", serif;
+    font-size: 3rem;
+    color: #070211;
+    font-style: 900;
+}
+.news_main p{
+    font-family: "Merriweather", serif;
+    font-size: 1rem;
+    color: #070211;
+    font-style: 400;
+    padding: 0 300px;
+    margin: 30px 0;
+}
+
+.input_feild{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.input_mail{
+    
+    border: none;
+    padding: 20px 40px;
+    width: 30%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.input_btn{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #FF0000;
+    width: 10%;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+/* news letter end */
+
+
+/* footer part start */
+
+#footer{
+    background-color: #000000;
+    padding: 100px 0;
+}
+
+.adress_main{
+    display: flex;
+    
+}
+
+.adres{
+    width: 50%;
+    
+    padding: 100px 50px 50px 0 ;
+}
+.adres h2{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.tel_web{
+    
+    align-items: end;
+    width: 50%;
+    
+    padding: 100px 0 0 400px;
+}
+
+.tel h3{
+    color: white;
+}
+
+.web h3{
+    color: white;
+}
+.tel{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+.web{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;   
+}
+
+/* icon part */
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.icon_images{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+
+/* copyright part */
+
+.hr_line{
+    margin: 40px 0;
+    color: rgba(43, 43, 43, 0.247);
+    height: 2px;
+}
+
+.copyright_main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright_main h2{
+    color: white;
+}
